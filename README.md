@@ -3,11 +3,11 @@
 Write a program that given an infix arithmetic expression, outputs a prefix version (the output order is unimportant as long as it evaluates to the same result).
 
 For example:
-3 becomes 3
-1 + 1 becomes (+ 1 1)
-2 * 5 + 1 becomes (+ 1 (* 2 5))
-2 * ( 5 + 1 ) becomes (* (+ 1 5) 2)
-3 * x + ( 9 + y ) / 4 becomes (+ (* 3 x) (/ (+ 9 y) 4))
+- 3 becomes 3
+- 1 + 1 becomes (+ 1 1)
+- 2 * 5 + 1 becomes (+ 1 (* 2 5))
+- 2 * ( 5 + 1 ) becomes (* (+ 1 5) 2)
+- 3 * x + ( 9 + y ) / 4 becomes (+ (* 3 x) (/ (+ 9 y) 4))
 
 The format of the input expression is highly restricted. All values are either single alphabetic characters or positive integers. All operators, including ( and ), are always separated by at least one space from other values or operators.
 
